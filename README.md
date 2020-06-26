@@ -1,5 +1,5 @@
 ## Online demo
-https://react-webcall.000webhostapp.com/
+https://react-webcall.000webhostapp.com/  (login: user, password: 12345)
 
 ## Quick start
 
