@@ -7,10 +7,12 @@ const persistConfig = {
   storage
 }
 
-import productsReducer from './products/products.reducer';
+import contactsReducer from './contacts/contacts.reducer';
+import userReducer from './user/user.reducer';
 
 const rootReducer = combineReducers({
-  products: productsReducer,
+  user: userReducer,
+  contacts: contactsReducer,
 });
 
 export default persistReducer(persistConfig, rootReducer);

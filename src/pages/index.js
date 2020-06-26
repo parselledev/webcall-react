@@ -1,5 +1,5 @@
-import ProductsPage from './ProductsPage';
+import ContactsPage from './ContactsPage';
 
 export {
-  ProductsPage
+  ContactsPage
 }

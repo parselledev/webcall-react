@@ -1,5 +1,35 @@
 .header
+  display: grid
+  grid-template-columns: auto auto
+  justify-content: space-between
+  align-items: center
+  grid-gap: 10px
   padding: 10px
   background: white
   border-radius: 10px
   box-shadow: $shadow-main
+  grid-column: 1 / -1
+
+  +media-mx(680px)
+    padding-left: 45px
+
+  &__user
+    display: grid
+    grid-template-columns: auto 35px 30px
+    align-items: center
+    grid-gap: 10px
+
+    +media-mx(450px)
+      grid-template-columns: 35px 30px
+
+  &__user-name
+    font-weight: bold
+
+    +media-mx(450px)
+      display: none
+
+  &__user-avatar
+    width: 35px
+    height: 35px
+    border-radius: 99px
+    background: lightgrey

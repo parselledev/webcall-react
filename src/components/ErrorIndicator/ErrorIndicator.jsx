@@ -1,5 +1,5 @@
 import React from 'react';
 
-const ErrorIndicator = () => <div>Ошибка!</div>;
+const ErrorIndicator = () => <div>Error!</div>;
 
 export default ErrorIndicator;

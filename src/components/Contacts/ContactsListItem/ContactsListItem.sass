@@ -1,0 +1,47 @@
+.contacts
+  &__list-item
+    display: grid
+    grid-template-columns: 38px auto auto 1fr
+    grid-gap: 10px
+    align-items: center
+    justify-content: start
+    padding: 2px 5px 2px 2px
+    border-radius: 99px 30px 30px 99px
+
+    +media-mx(410px)
+      grid-template-columns: 38px auto 1fr
+
+    &:hover,
+    &:focus
+      cursor: pointer
+      background: $color-grey-thin
+      .contacts__list-editBtn,
+      .contacts__list-deleteBtn
+        opacity: 1
+
+  &__list-avatar
+    width: 38px
+    height: 38px
+    border-radius: 99px
+    background: lightgrey
+
+  &__list-name
+    font-weight: bold
+
+  &__list-phone
+    +media-mx(410px)
+      display: none
+
+  &__list-edit
+    display: grid
+    grid-template-columns: auto auto
+    grid-gap: 5px
+    justify-self: end
+    justify-content: end
+
+  &__list-editBtn,
+  &__list-deleteBtn
+    opacity: 0
+
+    +media-mx(768px)
+      opacity: 0.6

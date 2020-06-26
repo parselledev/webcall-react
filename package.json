@@ -1,6 +1,6 @@
 {
   "name": "webcall-react",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "",
   "repository": {
     "type": "git",
@@ -52,6 +52,7 @@
     "pug-loader": "^2.4.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-image": "^4.0.1",
     "react-redux": "^7.2.0",
     "react-router-dom": "^5.2.0",
     "redux": "^4.0.5",
